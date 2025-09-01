@@ -1,0 +1,42 @@
+# Node / Next / Logs
+node_modules/
+.npm/
+.pnpm-store/
+.next/
+out/
+dist/
+build/
+.cache/
+*.log
+.env
+.env.*.local
+
+# Prisma / DB locales
+prisma/*.db
+prisma/*.sqlite
+*.db-journal
+
+# Unity / fichiers du jeu (très lourds)
+TheBazaar_Data/
+StreamingAssets/
+Resources/
+globalgamemanagers*
+sharedassets*.assets*
+resources.*
+*.assets
+*.resS
+*.resource
+*.bundle
+*.spriteatlas
+*.unitypackage
+*.dll
+*.exe
+app.info
+boot.config
+ScriptingAssemblies.json
+RuntimeInitializeOnLoads.json
+level*
+
+# OS
+Thumbs.db
+.DS_Store
